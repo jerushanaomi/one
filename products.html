@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-Commerce Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #32978b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header img {
+            max-width: 120px;
+            height: auto;
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-radius: 50%;
+        }
+
+        main {
+            margin: 20px;
+        }
+
+        section#products {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+        }
+
+        .product {
+            border: 1px solid #ddd;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product img {
+            width: 200px;
+            height: 200px;
+            object-fit: cover;
+        }
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            margin: 0 10px;
+        }
+         nav ul li a {
+            color: #fff;
+            text-decoration: none;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <img src="college_logo.png" alt="Website Logo">
+        <h1>Books Website</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+ 
+
+    <main>
+        <h2>Products</h2>
+        <div class="product">
+            <img src="wtr.jpg" alt="Product 1">
+            <h3>A walk to remember</h3>
+            <p>"A Walk to Remember" is a touching tale of love and redemption set in a small town. It follows the
+                transformative
+                journey of Landon and Jamie, two teenagers whose lives intertwine in unexpected ways. Through their
+                profound connection,
+                they discover the power of forgiveness, faith, and the enduring beauty of love.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="pjo.jpg" alt="Product 2">
+            <h3>Percy Jackson Series</h3>
+            <p>"Percy Jackson" is a captivating series written by Rick Riordan, centered around a young demigod named
+                Percy Jackson.
+                With a unique blend of Greek mythology and modern-day adventure, Percy embarks on thrilling quests,
+                battles mythical
+                creatures, and discovers his true identity as the son of Poseidon. Through his bravery and wit, Percy
+                navigates a world
+                filled with gods, monsters, and the challenges of being a hero.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="pjo.jpg" alt="Product 2">
+            <h3>Percy Jackson Series</h3>
+            <p>"Percy Jackson" is a captivating series written by Rick Riordan, centered around a young demigod named
+                Percy
+                Jackson.
+                With a unique blend of Greek mythology and modern-day adventure, Percy embarks on thrilling quests,
+                battles
+                mythical
+                creatures, and discovers his true identity as the son of Poseidon. Through his bravery and wit, Percy
+                navigates
+                a world
+                filled with gods, monsters, and the challenges of being a hero.</p>
+            <button>Add to Cart</button>
+        </div>
+        <div class="product">
+            <img src="hg.jpg" alt="Product 2">
+            <h3>Hunger Games</h3>
+            <p>"The Hunger Games" is a gripping dystopian trilogy written by Suzanne Collins. Set in a post-apocalyptic
+                world, it
+                follows Katniss Everdeen as she volunteers for the annual Hunger Games, a brutal televised event where
+                teenagers fight
+                to the death. Katniss becomes a symbol of rebellion and fights for survival while challenging the
+                oppressive Capitol's
+                control.</p>
+            <button>Add to Cart</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2023 Simple eCommerce Website. ENG20CS0176</p>
+    </footer>
+</body>
+
+</html>
